@@ -4,14 +4,11 @@ export const filterEvenNumbers = (numbers) => {
     });
 }
 
-
 export const filterLengthWith4 = (words) => {
     return words.filter(word => {
         return word.length === 4;
     });
 }
-
-
 
 export const filterStartWithA = (letters) => {
     return letters.filter((letter) => {

@@ -4,13 +4,11 @@ export const firstGrownUp = (ages) => {
     });
 }
 
-
 export const firstOrange = (fruit) => {
     return fruit.find((item) => {
         return item === 'orange';
     });
 }
-
 
 export const firstLengthOver5Name = (names) => {
     return names.find((name) => {

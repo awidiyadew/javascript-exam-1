@@ -4,18 +4,14 @@ export const halfNumbers = (numbers) => {
     })
 }
 
-
 export const spliceNames = (names) => {
     return names.map((item) => {
         return `Hello ${item}`;
     });
 }
 
-
-
 export const addSerialNumber = (fruit) => {
     return fruit.map((item, index) => {
         return `${index + 1}. ${item}`;
     })
 }
-
